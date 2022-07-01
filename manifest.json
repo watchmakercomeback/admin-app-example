@@ -1,0 +1,25 @@
+{
+  "name": "admin-example",
+  "vendor": "vtex",
+  "version": "0.0.12",
+  "title": "Example Admin App",
+  "description": "",
+  "mustUpdateAt": "2022-08-28",
+  "scripts": {
+    "postreleasy": "vtex publish"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.search-resolver": "0.x",
+    "vtex.catalog-graphql": "1.x"
+  },
+  "builders": {
+    "react": "3.x",
+    "admin": "0.x",
+    "messages": "1.x",
+    "docs": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
